@@ -7,3 +7,5 @@
 4.This script compiles a C file and creates an executable named cisfun.
 
 5.This script prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+
+6.This script prints a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
