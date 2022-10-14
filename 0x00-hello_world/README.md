@@ -13,3 +13,5 @@
 6.This script prints a C program that prints the size of various types on the computer it is compiled and run on.
 
 7.This script generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+8.This script prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
