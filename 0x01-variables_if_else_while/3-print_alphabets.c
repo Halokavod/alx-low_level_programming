@@ -8,13 +8,18 @@
 
 int main(void)
 {
-	char alphabet;
+	char uppercase;
+	char lowercase;
 
-	for (alphabet = 'A', 'a'; alphabet <= 'Z', 'z'; alphabet++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
-		putchar(alphabet);
+		putchar(uppercase);
 	}
 
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
+	{
+		putchar(lowercase);
+	}
 	putchar('\n');
 	return (0);
 }
