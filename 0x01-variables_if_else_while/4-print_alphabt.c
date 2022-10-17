@@ -9,12 +9,10 @@
 int main(void)
 {
 	char lowercase;
-	char exclude;
 
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-
-	for (exclude = 'q'; lowercase = 'e'; lowercase--)
 	{
+		if (grep -i -v -E 'q|e' lowercase)
 		putchar(lowercase);
 	}
 	putchar('\n');
