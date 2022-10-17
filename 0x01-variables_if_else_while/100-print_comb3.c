@@ -11,21 +11,17 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 0; a <= 9; a++)
+
+	for (b = a + 1; b <= 9; b++)
+
 	{
-
-	for (b = a + 49; b <= 57; b++)
-		{
-
-		putchar(a + 48);
-		putchar(b + 48);
-		{
-			putchar(44);
-			putchar(32);
-		}
-
+		putchar(a + '0');
+		putchar(b + '0');
 	}
-
+	{
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
