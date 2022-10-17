@@ -12,7 +12,7 @@ int main(void)
 
 	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		if (grep -i -v -E 'q|e' lowercase)
+		if (lowercase == 'e' || 'q')
 		putchar(lowercase);
 	}
 	putchar('\n');
