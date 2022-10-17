@@ -8,11 +8,16 @@
 
 int main(void)
 {
-	int f;
+	int g;
 
-	for (f = '0'; f <= '9'; f++)
+	for (g = '0'; g <= '9'; g++)
 	{
-		putchar(f);
+		putchar(g);
+	}
+
+	for (g = 'a'; g <= 'f'; g++)
+	{
+		putchar(g);
 	}
 	putchar('\n');
 	return (0);
