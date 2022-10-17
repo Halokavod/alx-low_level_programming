@@ -16,4 +16,6 @@
 
 8.This program prints all the numbers of base 16 in lowercase, followed by a new line.
 
-9.This program  prints all possible combinations of single-digit numbers. 
+9.This program  prints all possible combinations of single-digit numbers.
+
+10.This program  prints all possible different combinations of two digits. 
