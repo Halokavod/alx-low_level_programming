@@ -9,15 +9,23 @@
 int main(void)
 {
 	int a;
+	int b;
 
-	for (a = 4849; a < 494848; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		putchar(a);
-		if (a < 5748)
+
+	for (b = a + 49; b <= 57; b++)
+		{
+
+		putchar(a + 48);
+		putchar(b + 48);
 		{
 			putchar(44);
 			putchar(32);
 		}
+
+	}
+
 	}
 	putchar('\n');
 	return (0);
