@@ -20,8 +20,8 @@ int main(void)
 		putchar(b + '0');
 	}
 	{
-		putchar(',');
-		putchar(' ');
+		putchar(44);
+		putchar(32);
 	}
 	putchar('\n');
 	return (0);
