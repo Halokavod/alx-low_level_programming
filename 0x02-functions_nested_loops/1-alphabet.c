@@ -6,8 +6,6 @@
  * Return: 0 (Success)
  **/
 
-/*function prototype*/
-void print_alphabet(void);
 
 int main(void)
 {
