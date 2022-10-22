@@ -3,6 +3,10 @@
 
 /**
  * _isupper - check for uppercase letter
+ *
+ * description: aplhabet
+ *  @c: an input alphabet
+ *
  * Return: 1 oe 0
  */
 
@@ -17,5 +21,4 @@ int _isupper(int c)
 	{
 		return (0);
 
-	}
 }
