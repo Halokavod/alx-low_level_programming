@@ -1,11 +1,12 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  *  _puts - print a string followed by a new line
  *
  *  @str: an inputted string
  *
- *  Return: 0 (success)
+ *  Return: nothing
  */
 
 void _puts(char *str)
