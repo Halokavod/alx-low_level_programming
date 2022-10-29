@@ -6,7 +6,7 @@
  *
  * @s: a string
  *
- * Return: len (success)
+ * Return: 0 (success)
  */
 
 int _strlen(char *s)
