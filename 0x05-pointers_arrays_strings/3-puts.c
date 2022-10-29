@@ -11,12 +11,14 @@
 
 void _puts(char *str)
 {
-	int m = 0;
+	char *str
+
+	str = 0;
 
 	while (*(str + 1) != '\0')
 	{
-		_putchar(str[m]);
-		m++;
+		_puts(str[i]);
+		str++;
 	}
-	_putchar('\n');
+	_puts('\n');
 }
