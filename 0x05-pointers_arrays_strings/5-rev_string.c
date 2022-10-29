@@ -21,7 +21,7 @@ void rev_string(char *s)
 	{
 		y++;
 
-		len++;		
+		len++;
 	}
 	l = len - 1;
 
