@@ -1,13 +1,11 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - print pair values.
  * @str: value to be evaluate.
  * Return: not
  */
-
-
 void puts2(char *str)
 {
 	int len = 0;
@@ -25,7 +23,8 @@ void puts2(char *str)
 	{
 		if (z % 2 == 0)
 		{
-		}_putchar(str[z]);
+			_putchar(str[z]);
+		}
 	}
 	_putchar('\n');
 }
