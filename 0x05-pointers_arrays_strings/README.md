@@ -3,3 +3,5 @@
 2.This function swaps the values of two integers.
 
 3.This function returns the length of a string.
+
+4.This function prints a string, in reverse, followed by a new line.
