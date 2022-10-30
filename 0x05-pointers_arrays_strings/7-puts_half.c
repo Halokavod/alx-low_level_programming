@@ -1,20 +1,33 @@
-#include "main.h"
+#include <stdio.h>
+
+
+
+void puts_half(char *);
+
 
 
 /**
- * puts_half - update value.
- * @str: value to be evaluate.
- * Return: not.
- */
+ *
+ *  * main - check the code for Holberton School students.
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
-void puts_half(char *str)
+int main(void)
+
 {
-	 int count;
 
-	 for (count = 0; *str[count] != '\0'; count++);
-
+		char *str;
 
 
-	return (0);
+
+			str = "Holberton!";
+
+				puts_half(str);
+
+					return (0);
+
 }
-
