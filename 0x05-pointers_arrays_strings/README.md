@@ -8,4 +8,6 @@
 
 5.This function reverses a string.
 
-6.This function prints every other character of a string, starting with the first character, followed by a new
+6.This function prints every other character of a string, starting with the first character, followed by a new line.
+
+7.This function prints the second half of the string.
