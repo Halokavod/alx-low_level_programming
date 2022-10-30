@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * puts_half - update value.
  * @str: value to be evaluate.
@@ -8,10 +9,12 @@
 
 void puts_half(char *str)
 {
-	char *str;
+	 int count;
 
-	str = "m";
-	puts_half("m");
+	 for (count = 0; *str[count] != '\0'; count++);
+
+
+
 	return (0);
 }
 
